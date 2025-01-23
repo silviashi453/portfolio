@@ -247,7 +247,7 @@ nav {
 }
 
 .project-menu {
-  display: none;
+  visibility: hidden;
 }
 
 @media (max-width: 750px) {
@@ -342,6 +342,7 @@ nav {
   }
 
   .project-menu a {
+    visibility: visible;
     color: var(--black);
     display: flex;
     gap: 20px;
