@@ -1,0 +1,14 @@
+# Ignore operating system files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+desktop.ini       # Windows
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+*.swp         
+
+# Ignore backup or temporary files
+*.bak
+*.tmp
+*.log
