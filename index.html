@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span class="logo">megasilvia</span>
+        <div class="humberger" id="humberger">
+          <i class="material-icons">menu</i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="#hero-container" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#skills-container" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects-container" class="nav-link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="section hero-container" id="hero-container">
+        <div class="text-container">
+          <p class="text-large">Nice to meet you!</p>
+          <p class="text-large">I'm <span class="name">Mega Silvia.</span></p>
+          <p class="hero-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+            quod expedita. Quo accusantium voluptas hic eum fugit ratione? At
+            mollitia delectus voluptas quos atque dignissimos eveniet iusto nisi
+            natus hic! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Autem pariatur maiores id, magni facere incidunt qui at! Cumque
+            ipsa, labore suscipit quis delectus sed porro eveniet nulla
+            voluptates repudiandae odio.
+          </p>
+        </div>
+        <div class="image-container">
+          <img src="./images/foto.jpeg" alt="Gambar" class="hero-image" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="section skills-container" id="skills-container">
+        <span class="stabilo-text">Skills</span>
+        <div class="skills">
+          <div class="skill">
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              ><img src="./images/html.png" alt=""
+            /></a>
+          </div>
+          <div class="skill">
+            <a href="https://tailwindcss.com/" target="_blank"
+              ><img src="./images/tailwind.png" alt=""
+            /></a>
+          </div>
+          <div class="skill">
+            <a href="https://www.typescriptlang.org/" target="_blank"
+              ><img src="./images/ts.png" alt=""
+            /></a>
+          </div>
+          <div class="skill">
+            <a href="https://react.dev/" target="_blank">
+              <img src="./images/react.png" alt="" />
+            </a>
+          </div>
+          <div class="skill">
+            <a href="https://nodejs.org/en" target="_blank"
+              ><img src="./images/node.png" alt=""
+            /></a>
+          </div>
+          <div class="skill">
+            <a href="https://www.java.com/en/" target="_blank"
+              ><img src="./images/java.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section projects-container" id="projects-container">
+        <span class="stabilo-text">Projects</span>
+        <div class="projects">
+          <div class="project">
+            <div class="image-container">
+              <img src="./images/project1.png" alt="" />
+              <div class="overlay">
+                <a
+                  href="https://silviashi453.github.io/sunnyside-landing-page/"
+                  target="_blank"
+                  ><i class="material-icons">search</i></a
+                >
+                <a
+                  href="https://github.com/silviashi453/sunnyside-landing-page"
+                  target="_blank"
+                  ><i class="material-icons">code</i></a
+                >
+              </div>
+            </div>
+            <div class="project-desc">
+              <p>Landing Page</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <ul class="project-menu">
+                <li>
+                  <a
+                    href="https://silviashi453.github.io/sunnyside-landing-page/"
+                    target="_blank"
+                    class="clickable"
+                    >View Project</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/silviashi453/sunnyside-landing-page"
+                    target="_blank"
+                    class="clickable"
+                    >View Code</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="project"></div>
+          <div class="project"></div>
+          <div class="project"></div>
+          <div class="project"></div>
+          <div class="project"></div> -->
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
