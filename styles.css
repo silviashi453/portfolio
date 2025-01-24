@@ -78,8 +78,8 @@ nav {
   display: grid;
   column-gap: 10px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hero-image text-container";
-  padding: 10px 80px 0px 0px;
+  grid-template-areas: "text-container hero-image";
+  padding: 10px 50px 0px 100px;
   line-height: 1.5;
   height: 500px;
 }
@@ -120,7 +120,7 @@ nav {
 }
 
 .skills-container {
-  padding: 10px 10px 10px 100px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -146,7 +146,7 @@ nav {
 }
 
 .projects-container {
-  padding: 30px 10px 10px 100px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
