@@ -75,7 +75,6 @@ nav {
 }
 
 .hero-container {
-  background-color: red;
   display: grid;
   column-gap: 10px;
   grid-template-columns: 1fr 1fr;
@@ -121,7 +120,6 @@ nav {
 }
 
 .skills-container {
-  background-color: blue;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -148,7 +146,6 @@ nav {
 }
 
 .projects-container {
-  background-color: yellow;
   padding: 10px;
   display: flex;
   flex-direction: column;
