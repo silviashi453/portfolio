@@ -166,7 +166,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 400px);
   grid-template-rows: repeat(2, 300px);
-  row-gap: 100px;
+  row-gap: 150px;
 }
 
 .project {
@@ -178,7 +178,7 @@ nav {
 
 .project img {
   width: 100%;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
 }
 
 .image-container {
@@ -293,6 +293,11 @@ nav {
     color: #727d73;
     border: none;
   }
+
+  /* Show overlay on hover */
+  .image-container:hover .overlay {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 770px) {
@@ -379,6 +384,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 80px;
   }
 
   .project {
@@ -404,5 +410,9 @@ nav {
 
   .text-large {
     font-size: 24px;
+  }
+
+  .image-container:hover .overlay {
+    opacity: 0;
   }
 }
