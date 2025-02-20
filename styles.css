@@ -83,24 +83,26 @@ body {
 }
 
 .typing-container {
+  display: inline-block;
+}
+
+.typing-container p {
   font-size: 48px;
+  letter-spacing: 1px;
   border-right: 3px solid black; /* Efek kursor */
-  width: 14ch; /* Menyesuaikan panjang teks */
+  width: 100%; /* Menyesuaikan panjang teks */
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2.5s steps(14) infinite, blink 0.7s infinite;
+  animation: typing 2s steps(17), cursor 0.4s step-end infinite alternate;
 }
 
 @keyframes typing {
   from {
     width: 0;
   }
-  to {
-    width: 14ch; /* Menyesuaikan panjang teks */
-  }
 }
 
-@keyframes blink {
+@keyframes cursor {
   50% {
     border-color: transparent;
   }
@@ -325,13 +327,14 @@ body {
 
   .project-desc p {
     font-size: 16px;
+    letter-spacing: 1px;
   }
 
   .image-container:hover .overlay {
     opacity: 0;
   }
 
-  .typing-container {
+  .typing-container p {
     font-size: 32px;
   }
 }
